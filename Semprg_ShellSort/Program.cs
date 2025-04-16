@@ -16,7 +16,6 @@ var sorted2 = DumbSpeedMeasure(delegate
     ShellSort_GapSet(ref sorted, [ 1750, 701, 301, 132, 57, 23, 10, 4, 1 ]);
     return sorted;
 });
-
 var sorted3 = DumbSpeedMeasure(delegate
 {
     var sorted = data.ToArray();
